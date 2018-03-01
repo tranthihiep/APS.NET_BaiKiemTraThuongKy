@@ -1,0 +1,5 @@
+C:\Users\trant\OneDrive\Tài liệu\Visual Studio 2008\Projects\KiemTra\KiemTra\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\trant\OneDrive\Tài liệu\Visual Studio 2008\Projects\KiemTra\KiemTra\bin\KiemTra.dll
+C:\Users\trant\OneDrive\Tài liệu\Visual Studio 2008\Projects\KiemTra\KiemTra\bin\KiemTra.pdb
+C:\Users\trant\OneDrive\Tài liệu\Visual Studio 2008\Projects\KiemTra\KiemTra\obj\Debug\KiemTra.dll
+C:\Users\trant\OneDrive\Tài liệu\Visual Studio 2008\Projects\KiemTra\KiemTra\obj\Debug\KiemTra.pdb

@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="KiemTra.Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+    .style1
+    {
+        height: 23px;
+    }
+    .style2
+    {
+        height: 23px;
+        width: 112px;
+    }
+        .style3
+        {
+            height: 23px;
+            width: 295px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div>
+        <table style="width:100%;">
+            <tr>
+                <td class="style1" colspan="3">
+                    Header</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <asp:DataList ID="datalistTHUONGHIEU" runat="server">
+                        <ItemTemplate>
+                            <asp:HyperLink ID="HyperLink1" runat="server" 
+                                NavigateUrl='<%# "Products.aspx?thuong_hieu_id="+Eval("TH_ID") %>' 
+                                Text='<%# Eval("TEN_THUONG_HIEU") %>'></asp:HyperLink>
+                        </ItemTemplate>
+                    </asp:DataList>
+                </td>
+                <td class="style3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="style1">
+                    <asp:Login ID="Login1" runat="server" LoginButtonText="Đăng nhập" 
+                        style="margin-left: 0px" Width="180px">
+                    </asp:Login>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Footer</td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>
